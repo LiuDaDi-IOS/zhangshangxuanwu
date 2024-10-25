@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>谪仙平台</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #4a90e2, #50e3c2); /* 渐变色背景 */
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        .logo {
+            width: 150px; /* 根据需要调整logo大小 */
+            margin-bottom: 20px;
+        }
+
+        .download-button {
+            background-color: #ffffff;
+            color: #4a90e2;
+            text-decoration: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .download-button:hover {
+            background-color: #4a90e2;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<img src="icon.png" alt="应用Logo" class="logo">
+<a href="itms-services://?action=download-manifest&url=https://liudadi-ios.github.io/zhangshangxuanwu/zhangshangxuanwu.plist"
+   class="download-button">点击安装应用</a>
+</body>
+</html>
